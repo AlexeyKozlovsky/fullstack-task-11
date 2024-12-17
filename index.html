@@ -1,0 +1,340 @@
+<!doctype html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <link rel="canonical" href="https://example.com/" />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<title>AMP Version</title>
+<style amp-custom>
+    body {
+        margin: 0;
+        background-color: #060014;
+        font-family: "OpenSans", sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: "OpenSans", sans-serif;
+    }
+
+    .large {
+        font-family: "OpenSans", sans-serif;
+    }
+
+    .navbar {
+        display: block;
+        width: 100vw;
+        height: 50px;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        right: 30px;
+        gap: 30px;
+    }
+
+    .menu-button a {
+        color: azure;
+        text-decoration: none;
+        font-family: "OpenSans", sans-serif;
+    }
+
+    .search-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 10px 0 10px 15px;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        outline: none;
+        color: #aaa;
+    }
+
+    .main-button {
+        padding: 10px 50px;
+        border-radius: 40px;
+        color: azure;
+        background-color: transparent;
+        font-size: 18pt;
+    }
+
+    .purple-button {
+        background-color: rgb(136, 36, 205);
+        border: none;
+    }
+
+    .main-page {
+        position: relative;
+        background-image: url("assets/page_1_backgroound.jpg");
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .main-page-content {
+        display: inline-flex;
+        justify-content: right;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+
+    .main-page-content-title {
+        color: azure;
+        font-size: 50pt;
+        line-height: 70pt;
+        text-align: right;
+    }
+
+    .main-page-get-started-button {
+        margin-top: 1em;
+    }
+
+    .main-page-info {
+        color: azure;
+        margin-top: 0.5em;
+    }
+
+    .text-section {
+        background-color: #2b3544;
+        padding: 50px 20px;
+        color: #ffffff;
+    }
+
+    .text-section .container {
+        display: flex;
+        gap: 4em;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .cta-button {
+        background-color: #ffffff;
+        color: #d54356;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .photo-section {
+        background-image: url("assets/post_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-section {
+        background-color: rgb(49, 59, 78);
+        padding: 3em 4em;
+    }
+
+    .footer-section p {
+        font-size: 0.8em;
+    }
+</style>
+
+</head>
+<body>
+<div class="content">
+    <div class="container main-page">
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu-button button"><a href="#">About</a></li>
+                <li class="menu-button"><a href="#">How it works</a></li>
+                <li class="menu-button"><a href="#">Services</a></li>
+                <li class="menu-button"><a href="#">FAQ</a></li>
+                <li class="menu-button"><a href="#">Contact</a></li>
+                <li class="menu-search">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search Website" class="search-input" />
+                        <span class="search-icon"></span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="main-page-content">
+            <div class="main-page-content-title-container">
+                    <span class="main-page-content-title">
+                      Design your eyeballs <br/>
+                      will thank you for
+                  </span>
+            </div>
+
+            <div class="main-page-get-started-button-container">
+                <button class="main-page-get-started-button purple-button main-button">
+                    Get Started Today
+                </button>
+            </div>
+
+            <span class="main-page-info">
+                  Lorem ipsum dolor sit amet, consectetur.
+              </span>
+        </div>
+    </div>
+    <section class="text-section">
+        <div class="container">
+            <div class="column">
+                <h3>A FANTASTIC HEADING</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud.
+                </p>
+            </div>
+            <div class="column">
+                <h3>GOOD DAY BLOKES</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud.
+                </p>
+            </div>
+            <div class="column">
+                <h3>BLAZ ROBAR FOR PRESIDENT</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud.
+                </p>
+            </div>
+            <div class="column">
+                <h3>VOTE FOR ROBAR</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section forest-section">
+        <div class="container">
+            <h2>Wicked & whack, bang bang boo!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button class="cta-button">Get Started Today</button>
+        </div>
+    </section>
+    <section class="cta-section handwritten-section">
+        <div class="container">
+            <div class="image"></div>
+            <div class="content-container">
+                <h3>A HEADING IS WHAT YOU NEED HERE</h3>
+                <p class="text-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi at, consectetur culpa dignissimos earum ipsam libero, nisi quam, quis quo reiciendis rem tempora! Doloremque nisi nulla perspiciatis quod repellat.
+                </p>
+
+                <p class="smaller-text-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita illo minima perspiciatis unde. Accusantium optio pariatur qui quidem reiciendis rerum velit. Laudantium, minus odio. Culpa itaque nihil odio quis ullam!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section rush-section">
+        <div class="container">
+            <h2>Experience the rush today</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam dicta exercitationem molestiae, quo reiciendis totam voluptas voluptatum. Dicta, ut?
+            </p>
+            <button class="purple-button main-button">
+                Get Started Today
+            </button>
+
+            <p class="smaller-text-content">
+                Lorem ipsum dolor sit.
+            </p>
+        </div>
+    </section>
+
+    <div class="cta-section photo-section">
+        <div class="container">
+            <button class="transparent-button main-button">
+                Photography
+            </button>
+
+            <h1>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </h1>
+
+            <div class="profile-container">
+                <amp-img
+                        src="./assets/ava.png"
+                        width="45"
+                        height="45"
+                        layout="fixed">
+                </amp-img>
+                <p>Blaz Robar, god like web designer</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="cta-section handwritten-section-2">
+        <div class="container">
+            <amp-img
+                    src="./assets/about_bacground.jpg"
+                    width="629"
+                    height="350"
+                    layout="fixed">
+            </amp-img>
+            <div class="content-container">
+                <h3>A HEADING IS WHAT YOU NEED HERE</h3>
+                <p class="text-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi at, consectetur culpa dignissimos earum ipsam libero, nisi quam, quis quo reiciendis rem tempora! Doloremque nisi nulla perspiciatis quod repellat.
+                </p>
+
+                <p class="smaller-text-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita illo minima perspiciatis unde. Accusantium optio pariatur qui quidem reiciendis rerum velit. Laudantium, minus odio. Culpa itaque nihil odio quis ullam!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta-section get-in-touch-section">
+        <div class="container">
+            <h3>Get in touch</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis laudantium minima neque nulla recusandae sunt, tenetur unde veniam? Optio.
+            </p>
+
+            <p class="email">
+                <a href="mailto:info@example.com">info@example.com</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="cta-section footer-section">
+        <div class="container">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis laudantium minima neque nulla recusandae sunt, tenetur unde veniam? Optio.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
